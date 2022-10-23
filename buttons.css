@@ -1,0 +1,32 @@
+.fourstar-button {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(205, 91, 236);
+    color: rgb(37, 0, 82);
+    height: 60px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: solid;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 1s;
+}
+.fourstar-button:hover {
+    background-color: rgb(246, 204, 252);
+}
+.fivestar-button
+{
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 197, 7);
+    color: rgb(37, 0, 82);
+    height: 60px;
+    width: 150px;
+    border-radius: 15px;
+    border-style: solid;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+.fivestar-button:hover {
+    background-color: rgb(244, 242, 189);
+}
