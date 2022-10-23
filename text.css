@@ -29,54 +29,130 @@
     font-size: 18px;
     width: 500px;
     line-height: 20px;
-    margin-bottom: 0;
+    margin-bottom: 50px;
     margin-top: 0;
     margin-left: 10px;
 }
-.dropbtn {
-    text-align: center;
-    font-weight: bold;
-    background-color:  rgb(255, 197, 7);
-    color: rgb(37, 0, 82);
-    height: 40px;
-    width: 100px;
-    border-radius: 5px;
-    border-style: solid;
-    cursor: pointer;
-    margin-right: 10px;
-    margin-top: 100px;
-  }
-  
-  /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: rgb(248, 245, 148);
+
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 3px solid rgb(0, 0, 0);
+  background-color: #f1f1f1;
+  width: -webkit-fit-content
 }
-  /* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: black;
+  color: #f1f1f1;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 16px;
+  transition: 0.3s;
 }
-  
-  /* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9ea98;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(47, 47, 47);
 }
-  
-  /* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: rgb(87, 87, 87);
 }
-  
-  /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: rgb(248, 255, 196);}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 15px 16px;
+  border: 3px solid rgb(0, 0, 0);
+  border-top: none;
+  table-layout: auto;
+  width: -webkit-fit-content;
+}
+
+.PyroName-button {
+  text-align: center;
+  font-weight: bold;
+  background-color: #FF4500;
+  color: rgb(0, 0, 0);
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: solid;
+  cursor: pointer;
+  margin-top: 0;
+  transition: background-color 1s;
+}
+.PyroName-button:hover {
+  background-color: rgb(255, 120, 120);
+}
+.HydroName-button {
+  text-align: center;
+  font-weight: bold;
+  background-color: #00BFFF;
+  color: rgb(0, 0, 0);
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: solid;
+  cursor: pointer;
+  margin-top: 0;
+  transition: background-color 1s;
+}
+.HydroName-button:hover {
+  background-color: #6cdaff;
+}
+.CryoName-button {
+  text-align: center;
+  font-weight: bold;
+  background-color: #b9dff7;
+  color: rgb(0, 0, 0);
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: solid;
+  cursor: pointer;
+  margin-top: 0;
+  transition: background-color 1s;
+}
+.CryoName-button:hover {
+  background-color: #e5f4fe;
+}
+.DendroName-button {
+  text-align: center;
+  font-weight: bold;
+  background-color: #32CD32;
+  color: rgb(0, 0, 0);
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: solid;
+  cursor: pointer;
+  margin-top: 0;
+  transition: background-color 1s;
+}
+.DendroName-button:hover {
+  background-color: #a6cca6;
+}
+.ElectroName-button {
+  text-align: center;
+  font-weight: bold;
+  background-color: #7B68EE;
+  color: rgb(0, 0, 0);
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border-style: solid;
+  cursor: pointer;
+  margin-top: 0;
+  transition: background-color 1s;
+}
+.ElectroName-button:hover {
+  background-color: #9d8fea;
+}
