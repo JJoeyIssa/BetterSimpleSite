@@ -1,0 +1,32 @@
+.character-name {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titleof-page {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.introduction-text {
+    font-family: Arial;
+    font-size: 18px;
+    width: 500px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}

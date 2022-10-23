@@ -12,7 +12,7 @@
     transition: background-color 1s;
 }
 .fourstar-button:hover {
-    background-color: rgb(246, 204, 252);
+    background-color: rgb(236, 140, 249);
 }
 .fivestar-button
 {
@@ -25,8 +25,26 @@
     border-radius: 15px;
     border-style: solid;
     cursor: pointer;
+    margin-right: 10px;
     transition: background-color 1s;
 }
 .fivestar-button:hover {
-    background-color: rgb(244, 242, 189);
+    background-color: rgb(248, 245, 148);
+}
+
+.stat-button {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    height: 60px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.stat-button:hover {
+    background-color: rgb(255, 120, 120);
 }
