@@ -9,7 +9,7 @@
 
 .titleof-page {
     font-family: Arial;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -23,17 +23,17 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
-    background-color: white;
+    background-color: rgb(50, 50, 50);
 }
 
 .introduction-text {
     font-family: Arial;
     font-size: 18px;
-    width: 500px;
+    width: 520px;
     line-height: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     margin-top: 0;
     margin-left: 10px;
     color: white;
