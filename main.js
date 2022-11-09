@@ -36,3 +36,17 @@ function myFunction() {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+
+function showAmber() {
+
+    /* Get image and change value
+    of src attribute */
+    let image = document.getElementById("image");
+
+    image.src =
+"AmberImage.png"
+
+    document.getElementById("btnID")
+        .style.display = "none";
+}

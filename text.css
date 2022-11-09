@@ -228,3 +228,17 @@
   margin-right: 5px;
 }
 
+.shiftup {
+  margin-bottom: 30%;
+  display: flexbox;
+}
+
+.image {
+  width: 40%;  
+  padding: 10px;
+  height: auto;  
+  margin-bottom: 10%;
+  display: inline-flex;
+  margin-left: 50%;
+  float: right;
+}
