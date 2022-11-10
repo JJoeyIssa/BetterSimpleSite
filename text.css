@@ -238,7 +238,5 @@
   padding: 10px;
   height: auto;  
   margin-bottom: 10%;
-  display: inline-flex;
-  margin-left: 50%;
-  float: right;
+  display: inline-block;
 }
